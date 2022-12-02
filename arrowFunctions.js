@@ -26,7 +26,7 @@ document.write(welcome2("Shruti", 22))
 
 // If you have only one argument to pass in the function you don't need parenthesis.
 
-let welcome3 = name => `The name is ${name}`
+let welcome3 = name => `The name is ${name}<br>`
 
 welcome3()
 
