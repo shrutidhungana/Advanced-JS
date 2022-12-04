@@ -26,5 +26,14 @@ for (var e= 0; e < 5; e++){
     document.write(e + "<br>")
 }
 
-document.write(e)
+document.write(e + "<br>")
 // var has global level scope i.e. it can be accessed outside the block
+
+var x = "Football"
+var x = "World Cup"
+x = "IN Qatar"
+document.write(x + "<br>")
+
+let z = "Next"
+ z = "World"
+document.write(z)

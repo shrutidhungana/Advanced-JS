@@ -13,15 +13,28 @@ sum(20, 30, 40)
 sum(20, 30)
 
 // Now rest operator comes to action when we have datatype other than the one to be calculated.
-let sum1 =(name, ...args) =>{
+let product1 =(name, ...args) =>{
     document.write(`Hello ${name} :`)
-    let sum1 = 0;
+    let product1 = 1;
     for (let i in args) {
-        sum1+= args[i]
+        product1*= args[i]
     }
-    let result1 = `${sum1}<br>`
+    let result1 = `${product1}<br>`
     document.write(result1)
 }
 
-sum1("Shruti", 2, 3)
-sum1("Ram",20,30,40)
+product1("Shruti", 2, 3)
+product1("Ram", 20, 30, 40)
+ 
+const difference1 = (name, ...args) => {
+    document.write(`Hello${name}:`)
+    let difference1 = [...args];
+    for (let i in args) {
+        difference1-= args[i]
+    }
+    let result2 = `${difference1}<br>`
+    document.write(result2) 
+}
+
+difference1("Shruti", 3 , 2)
+

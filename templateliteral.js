@@ -20,3 +20,8 @@ function fullName(firstName, lastName) {
 
 let hello = `${fullName(firstName, lastName)}`
 document.write(hello)
+
+
+let surName = "Shruti Dhungana"
+let result2 = `Hello ${surName}`
+document.write(result2)
